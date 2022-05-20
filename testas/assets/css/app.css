@@ -1,0 +1,143 @@
+.imgbox {
+  width: 100%;
+  height: 600px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  gap: 40px;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  margin-top: 50px;
+}
+
+.imgbox .firstcolumn,
+.secondcolumn,
+.thirdcolumn,
+.fourthcolumn {
+  height: 100%;
+  width: 20%;
+}
+
+.firstcolumn {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+.columnhead,
+.seccolumnhead,
+.thirdcolumnhead,
+.fourthcolumnhead {
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.svgback1,
+.svgback2,
+.svgback3,
+.svgback4 {
+  width: 90%;
+  height: 200px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  border-radius: 6px 6px 6px 6px;
+  position: relative;
+}
+
+.svgback1 img,
+.svgback2 img,
+.svgback3 img,
+.svgback4 img {
+  width: 50%;
+  height: 50%;
+}
+
+.ear1,
+.ear2,
+.ear3,
+.ear4 {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  top: -23px;
+  position: absolute;
+  right: 223px;
+  text-align: center;
+}
+
+.ear1 {
+  border: 4px solid #00ffb7;
+  background: white;
+  color: #00ffb7;
+}
+
+.ear2 {
+  background-color: white;
+  border: 4px solid #1111ba;
+  color: #1111ba;
+}
+
+.ear3 {
+  background-color: white;
+  border: 4px solid tomato;
+  color: tomato;
+}
+
+.ear4 {
+  background-color: white;
+  border: 4px solid grey;
+  color: gray;
+}
+
+.svgback1 {
+  background-color: #00ffb7;
+}
+
+.svgback2 {
+  background-color: #1111ba;
+}
+
+.svgback3 {
+  background-color: tomato;
+}
+
+.svgback4 {
+  background-color: grey;
+}
+
+.columnbody,
+.seccolumnbody,
+.thirdcolumnbody,
+.fourthcolumnbody p {
+  text-align: center;
+  color: orange;
+  font-size: 20px;
+  font-family: 'Roboto', sans-serif;
+}
+
+.columnfoot,
+.seccolumnfoot,
+.thirdcolumnfoot,
+.fourthcolumnfoot {
+  text-align: center;
+}
+/*# sourceMappingURL=app.css.map */
